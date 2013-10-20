@@ -21,6 +21,7 @@
 		0B450FCB18136F3300CC8404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B450FAD18136F3200CC8404 /* UIKit.framework */; };
 		0B450FD318136F3300CC8404 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B450FD118136F3300CC8404 /* InfoPlist.strings */; };
 		0B450FD518136F3300CC8404 /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B450FD418136F3300CC8404 /* gitTestTests.m */; };
+		0B450FE0181370E600CC8404 /* asTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B450FDF181370E600CC8404 /* asTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0B450FD018136F3300CC8404 /* gitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTestTests-Info.plist"; sourceTree = "<group>"; };
 		0B450FD218136F3300CC8404 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B450FD418136F3300CC8404 /* gitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestTests.m; sourceTree = "<group>"; };
+		0B450FDE181370E600CC8404 /* asTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asTest.h; sourceTree = "<group>"; };
+		0B450FDF181370E600CC8404 /* asTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = asTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				0B450FB818136F3200CC8404 /* asAppDelegate.h */,
+				0B450FDE181370E600CC8404 /* asTest.h */,
+				0B450FDF181370E600CC8404 /* asTest.m */,
 				0B450FB918136F3200CC8404 /* asAppDelegate.m */,
 				0B450FBB18136F3200CC8404 /* Main.storyboard */,
 				0B450FBE18136F3200CC8404 /* asViewController.h */,
@@ -253,6 +258,7 @@
 				0B450FC018136F3200CC8404 /* asViewController.m in Sources */,
 				0B450FBA18136F3200CC8404 /* asAppDelegate.m in Sources */,
 				0B450FB618136F3200CC8404 /* main.m in Sources */,
+				0B450FE0181370E600CC8404 /* asTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
